@@ -1,9 +1,7 @@
 import React from 'react';
 
-console.log('hello world')
-
-const HelloWorld = () => {
-  return <div>Hello, World!</div>;
+const HelloWorld = ({ text, style }) => {
+  return <div style={style}>{text}</div>;
 };
 
 export default HelloWorld;
